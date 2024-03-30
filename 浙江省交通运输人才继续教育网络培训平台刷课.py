@@ -50,11 +50,6 @@ def login():  # 登录
         button.click()
         for i in range(600):
             time.sleep(1)
-            try:
-                button = driver.find_element(By.XPATH, '//*[@id="study_tips"]/a')
-                button.click()
-            except:
-                print("Element not found")
         driver.refresh()
 
 
