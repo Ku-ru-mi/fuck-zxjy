@@ -48,7 +48,7 @@ def login():  # 登录
         time.sleep(2)
         button = driver.find_element(By.XPATH, '//*[@id="get_my_study_log_html"]/tr[1]/th[6]/a[1]')
         button.click()
-        for i in range(1200):
+        for i in range(600):
             time.sleep(1)
             try:
                 button = driver.find_element(By.XPATH, '//*[@id="study_tips"]/a')
