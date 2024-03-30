@@ -13,7 +13,7 @@ driverPath = ChromeDriverManager().install()
 print(driverPath)
 # driverPath = "G:\\chromedriver-win32/chromedriver.exe"
 jsCode = requests.get(
-    "https://gitcode.net/mirrors/requireCool/stealth.min.js/-/raw/main/stealth.min.js?inline=false").text
+    "https://gitcode.net/mirrors/requireCool/stealth.min.js/-/raw/main/stealth.min.js?inline=false")。text
 
 
 def add_js_to_browser(driver):  # 防止网站反爬
